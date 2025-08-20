@@ -1,0 +1,39 @@
+@mixin theme() {
+  /*----------------------------------buttons--------------------------------*/
+  /*----------------text-colors--------------*/
+  .button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    // &-orange{
+    background-color: var(--color-backgroud-button);
+    &:hover {
+      background-color: var(--color-backgroud-button-hover);
+      opacity: 0.9;
+    }
+    &:focus,
+    &:focus-visible {
+      border-color: var(--color-backgroud-button-hover);
+    }
+    &.orange {
+      align-items: flex-start;
+      --color-backgroud-button: var(--o-color-500);
+      --color-backgroud-button-hover: var(--o-color-600);
+    }
+    &.blue {
+      align-items: center;
+      --color-backgroud-button: var(--b-color-500);
+      --color-backgroud-button-hover: var(--b-color-600);
+    }
+    &.purple {
+      --color-backgroud-button: var(--p-color-500);
+      --color-backgroud-button-hover: var(--p-color-300);
+    }
+  }
+}

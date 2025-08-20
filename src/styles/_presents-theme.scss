@@ -1,0 +1,30 @@
+@mixin theme() {
+  /*---------------------------Itinerary---------------------------*/
+
+  .suggestion-oval-container {
+    height: 650px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 325px;
+    position: relative;
+    > div {
+      align-self: anchor-center;
+      position: absolute;
+    }
+  }
+
+  .content-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    margin-right: 58px;
+    margin-left: 12px;
+  }
+
+  @media (max-width: 912px) {
+    .content-suggestion {
+      gap: 2rem;
+    }
+  }
+}

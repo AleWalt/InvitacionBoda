@@ -1,0 +1,79 @@
+@use './styles/_colors-theme.scss' as colorsTheme;
+@use './styles/_fonts-theme.scss' as fontsTheme;
+@use './styles/_images-background-theme.scss' as imageBackgroundTheme;
+@use './styles/_itinerary-theme.scss' as itineraryTheme;
+@use './styles/_presents-theme.scss' as presentsTheme;
+@use './styles/_location-theme.scss' as locationTheme;
+@use './styles/_button-theme.scss' as buttonTheme;
+
+:root {
+
+  --color-white: #FFFBF4;
+  --color-black: #050606;
+
+  --p-color-500: #452f49;
+  --p-color: #8A5E91;
+  --p-color-300: #A779AE;
+  --p-color-200: #C495CB;
+  --p-color-100: #E3B2EA;
+
+
+  --b-color: #BBB7E2;
+  --b-color-500: #928EB8;
+  --b-color-600: #6B688F;
+  --b-color-700: #454468;
+  --b-color-800: #222344;
+  
+  --o-color: #fbc69b;
+  --o-color-500: #CA9970;
+  --o-color-600: #9b6e47;
+  --o-color-700: #6e4621;
+  
+  --b-color-slice: #2d4059;
+  --b-color-slice: var(--b-color-800);
+
+  --phone-max-width: 912px;
+  --width-location-container: 550px;
+
+  --qr-present-size: 175px;
+  --tam-contador: 6rem;
+  --tam-contador-borde: 0.25rem;
+  --space-countdown-box: 0.75rem;
+  --color-backgroud-button: #6d6d6d;
+  --color-backgroud-button-hover: #000;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--b-color-800);
+  color: #050606;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: inherit;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  @include colorsTheme.theme();
+  @include fontsTheme.theme();
+  @include buttonTheme.theme();
+  @include itineraryTheme.theme();
+  @include presentsTheme.theme();
+  @include locationTheme.theme();
+  @include imageBackgroundTheme.theme();
+}
+
+

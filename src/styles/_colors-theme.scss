@@ -1,0 +1,108 @@
+/*----------------------------------Colors--------------------------------*/
+
+@mixin theme(){
+  /*----------------text-colors--------------*/
+  .c-black {
+    color: var(--color-black);
+  }
+  
+  .p-color-500{
+    color: var(--p-color-500);
+  }
+  .p-color{
+    color: var(--p-color);
+  }
+  .p-color-300{
+    color: var(--p-color-300);
+  }
+  .p-color-200{
+    color: var(--p-color-200);
+  }
+  .p-color-100{
+    color: var(--p-color-100);
+  }
+  .b-color{
+    color: var(--b-color);
+  }
+  .b-color-500{
+    color: var(--b-color-500);
+  }
+  .b-color-600{
+    color: var(--b-color-600);
+  }
+  .b-color-700{
+    color: var(--b-color-700);
+  }
+  .b-color-slice{
+    color: var(--b-color-slice);
+  }
+  .o-color{
+    color: var(--o-color);
+  }
+  .o-color-500{
+    color: var(--o-color-500);
+  }
+  .o-color-600{
+    color: var(--o-color-600);
+  }
+  .o-color-700{
+    color: var(--o-color-700);
+  }
+  
+  .c-white {
+    color: var(--color-white);
+  }
+  /*----------------background-colors--------------*/
+  .p-b-color-500{
+    background-color: var(--p-color-500);
+  }
+  .p-b-color{
+    background-color: var(--p-color);
+  }
+  .p-b-color-300{
+    background-color: var(--p-color-300);
+  }
+  .p-b-color-200{
+    background-color: var(--p-color-200);
+  }
+  .p-b-color-100{
+    background-color: var(--p-color-100);
+  }
+  .b-b-color{
+    background-color: var(--b-color);
+  }
+  .b-b-color-500{
+    background-color: var(--b-color-500);
+  }
+  .b-b-color-600{
+    background-color: var(--b-color-600);
+  }
+  .b-b-color-700{
+    background-color: var(--b-color-700);
+  }
+  .b-b-color-slice{
+    background-color: var(--b-color-slice);
+  }
+  .o-b-color{
+    background-color: var(--o-color);
+  }
+  .o-b-color-500{
+    background-color: var(--o-color-500);
+  }
+  .o-b-color-600{
+    background-color: var(--o-color-600);
+  }
+  .o-b-color-700{
+    background-color: var(--o-color-700);
+  }
+
+  .b-c-white {
+    background-color: var(--color-white);
+  }
+
+  .op-75{
+    background-color: rgba(247, 249, 249,0.75);
+    color: var(--color-900);
+  }
+}
+

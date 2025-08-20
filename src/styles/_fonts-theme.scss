@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Mea+Culpa&family=Montserrat:wght@300;500&family=Parisienne&family=Patrick+Hand+SC&family=Playfair+Display&family=Quantico&family=Vujahday+Script&display=swap');
+/*
+font-family: 'Josefin Slab', serif;
+font-family: 'Mea Culpa', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Vujahday Script', cursive;
+*/
+
+/*----------------------------------Fonts--------------------------------*/
+@mixin theme(){
+  /*----------------font-family--------------*/
+  .f-playfair {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+  }
+  .f-montserrat {
+    font-family: 'Montserrat', serif;
+    font-weight: lighter;
+
+  }
+  .f-josefinslab{
+    font-family: 'Josefin Slab', serif; 
+  }
+  .f-parisinne{
+    font-family: 'Parisienne', cursive;
+  }
+  .f-quantico {
+    font-family: 'Quantico', sans-serif;
+  }
+  .f-georgia {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .f-bohemefloral {
+    font-family: 'Mea Culpa', cursive;
+    
+  }
+
+  /*----------------font-size--------------*/
+
+  .f-size-title{
+    font-size: 4.5rem;
+  }
+  .f-size-text{
+    font-size: 2rem;
+  }
+  .f-size-countdown-label{
+    font-size: 3.5rem;
+  }
+  .f-size-text-separator{
+    font-size: 1.2rem;
+  }
+  .f-size-text-small{
+    font-size: 1.15rem;
+  }
+  .f-size-text-extra-small{
+    font-size: .85rem;
+  }
+  .f-size-hashtag{
+    font-size: 3.5rem;
+  }
+  .f-size-250{
+    font-size: 2.5rem;
+  }
+  .f-size-125{
+    font-size: 1.25rem;
+  }
+  .f-size-650{
+    font-size: 5.75rem;
+  }
+
+  .f-orientation-vdt{
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+  }
+
+  @media (max-width: 912px) {
+    .f-size-650{
+    font-size: 5.5rem;
+  }
+    .f-size-title{
+      font-size: 3rem;
+    }
+    .f-size-countdown-label{
+      font-size: 2.5rem;
+    }
+    .f-size-text{
+      font-size: 1.45rem;
+    }
+    .f-size-text-small{
+      font-size: 1rem;
+    }
+    .f-size-text-extra-small{
+      font-size: .65rem;
+    }
+  }
+}
