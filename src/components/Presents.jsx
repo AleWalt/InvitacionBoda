@@ -15,9 +15,9 @@ const Presents = () => {
           </div>
           <div className="content-suggestion">
             <span className="f-size-text-small f-montserrat">
-              ¡YA TENEMOS TODO LO NECESARIO PARA EL HOGAR! SI DESEAN OSEQUIARNOS
+              ¡YA TENEMOS TODO LO NECESARIO PARA EL HOGAR! SI DESEAN OBSEQUIARNOS
               ALGO ADEMAS DE SU VALIOSA COMPAÑÍA , AGRADECEMOS CUALQUIER APORTE
-              PARA NUERTRA LUNA DE MIEL Y FUTUROS VIAJES
+              PARA NUESRTRA LUNA DE MIEL Y FUTUROS VIAJES
             </span>
             <div>
               <span className="f-size-text-extra-small f-josefinslab">
