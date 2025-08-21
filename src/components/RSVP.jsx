@@ -18,7 +18,7 @@ const RSVP = () => {
                     <div style={{width: '25px', height:'25px'}}>
                         <FontAwesomeIcon icon={faWhatsapp} style={{color: "white", blockSize: "auto",}} />
                         </div>
-                        <span>Novia</span>
+                        <span style={{color: "white"}}>Novia</span>
                     </button>
                 </a>
             </div>

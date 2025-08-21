@@ -27,7 +27,11 @@
   .location-content-container {
     top: 0;
     height: 800px;
-    max-width: 80%;
+    width: var((--width-location-container));
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    max-width: 100%;
     position: absolute;
   }
 

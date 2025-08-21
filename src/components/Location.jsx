@@ -29,7 +29,7 @@ const Location = () => {
                                 <div style={{width: '16px', height:'16px', alignItems: 'baseline'}}>
                                     <FontAwesomeIcon icon={faLocationDot} style={{color: "white", blockSize: "auto",}} />
                                 </div>
-                                <span> Ubicación</span>
+                                <span style={{color: "white"}}> Ubicación</span>
                             </button>
                         </a>
                     </div>

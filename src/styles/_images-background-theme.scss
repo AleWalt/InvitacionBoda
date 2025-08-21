@@ -3,17 +3,21 @@
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
       url(./assets/Pictures/AleWalter1.jpeg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; /* Ensure image covers the div */
+  // background-position: center; /* Center the image */
+  position: relative; /* For absolute positioning of date */
+  min-height: 92vh; /* Fallback for Safari */
     background-position: 0% 15%;
     
   }
   .pic-end-page {
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-      url(./assets/Pictures/AleWalter2.jpeg);
+      url(./assets/Pictures/AleWalter2.1.jpeg);
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
     background-position: 50% 65%;
   }
 
@@ -24,6 +28,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: cover;
     background-position: center;
   }
 
@@ -32,6 +37,7 @@
       url(./assets/Pictures/Local.jpeg);
     background-position: 10% 70%;
     background-size: cover;
+    object-fit: cover;
     background-position: center;
   }
 
@@ -41,6 +47,7 @@
       url(./assets/Pictures/jardin.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     background-position: 10% 60%;
   }
   .backfround-flowers{
@@ -68,14 +75,27 @@
     background-position: 50% 70%;
 
     }
+    .pic-end-page {
+      background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./assets/Pictures/AleWalter2.jpeg);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-attachment: fixed;
+      background-size: cover;
+      object-fit: cover;
+      background-position: 50% 65%;
+    }
     div.pic-title-page {
       background-position: center;
+      max-height: 92vh; /* Fallback for Safari */
+
+      background-size: cover; /* Reinforce cover for mobile */
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
     .pic-itinerary{
       background-position: 33% 60%;
-      background-size: cover;
+      background-size: cover;  
+    object-fit: cover;
     }
   }
 

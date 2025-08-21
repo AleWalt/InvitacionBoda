@@ -79,4 +79,7 @@ body {
   @include imageBackgroundTheme.theme();
 }
 
+a:link, a:visited , a:link:active, a:visited:active {
+  color: var(--color-white);
+}
 
