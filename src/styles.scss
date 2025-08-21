@@ -5,6 +5,7 @@
 @use './styles/_presents-theme.scss' as presentsTheme;
 @use './styles/_location-theme.scss' as locationTheme;
 @use './styles/_button-theme.scss' as buttonTheme;
+@use './styles/normalize.scss' as normalizeTheme;
 
 :root {
 
@@ -67,6 +68,8 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   min-height: 100vh;
+  -webkit-text-size-adjust: 100%;
+  @include normalizeTheme.normalize();
   @include colorsTheme.theme();
   @include fontsTheme.theme();
   @include buttonTheme.theme();

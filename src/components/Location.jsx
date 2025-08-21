@@ -21,7 +21,7 @@ const Location = () => {
                     <div className='f-montserrat d-flex flex-column align-center'>
                         <span className='f-size-text f-montserrat'><strong>Recepción</strong></span>
                         <span className='f-size-text f-montserrat'>02:30 PM</span>
-                        <img src="src/assets/Pictures/Local.jpeg" alt="Reception place" className='local-image' style={{borderRadius: 400 / 2}} />
+                        <div  className='local-image pic-local' style={{borderRadius: 400 / 2}} />
                         <span className='f-size-text f-montserrat extra-vertical-margin-location'><strong>HUERTO DE LOS OLIVOS</strong></span>
                         <span className='f-size-text-small '>Calle Cochabamba, Tiquipaya, Cochabamba</span>
                         <a href={Links['Reception-Link']} target='_blank' rel='noreferrer' className='extra-vertical-margin-location'>

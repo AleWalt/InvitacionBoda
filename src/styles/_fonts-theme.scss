@@ -73,8 +73,8 @@ font-family: 'Vujahday Script', cursive;
   }
 
   .f-orientation-vdt{
-    writing-mode: sideways-lr;
-    text-orientation: mixed;
+    transform: rotate(90deg);
+    transform-origin: left top;
   }
 
   @media (max-width: 912px) {

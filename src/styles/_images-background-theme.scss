@@ -15,7 +15,6 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 65%;
-    
   }
 
   .pic-countdown {
@@ -24,6 +23,14 @@
     background-position: 10% 70%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pic-local {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url(./assets/Pictures/Local.jpeg);
+    background-position: 10% 70%;
     background-size: cover;
     background-position: center;
   }
