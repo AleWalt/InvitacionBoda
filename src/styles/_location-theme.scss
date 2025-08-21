@@ -25,7 +25,8 @@
   }
 
   .location-content-container {
-    align-self: anchor-center;
+    top: 0;
+    height: 800px;
     max-width: 80%;
     position: absolute;
   }
@@ -40,8 +41,6 @@
     width: 300px;
     height: 300px;
     border: 1px solid var(--color-white);
-    // box-shadow: var(--color-white) 1px 1px 16px;
-    // object-position: 40% 50%;
   }
 
   @media (max-width: 912px) {
@@ -56,7 +55,9 @@
       width: 90vw;
       height: 15vh;
     }
-
+    .location-content-container{
+      height: calc((15vh * 2) + 400px);
+    }
     .local-image {
       margin-top: 8px;
       width: 250px;

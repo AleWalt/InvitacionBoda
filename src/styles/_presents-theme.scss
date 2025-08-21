@@ -8,11 +8,26 @@
     border-radius: 325px;
     position: relative;
     > div {
-      align-self: anchor-center;
+      height: 650px;
+      // align-self: anchor-center;
       position: absolute;
     }
   }
+  .suggestion-title{
+    width: 5rem;
+    display: flex;            /* allow centering inside */
+    justify-content: center;  /* horizontal centering */
+    align-items: center;      /* vertical centering */
+    .div{
+      // padding: 0px 15px;
+      // height: 100%;
+      // width: 5rem;
+       
+      
 
+    }
+
+  }
   .content-suggestion {
     display: flex;
     align-items: center;

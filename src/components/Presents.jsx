@@ -9,9 +9,12 @@ const Presents = () => {
   return (
     <div className="backfround-flowers w-full content-center ">
       <div className="suggestion-oval-container b-b-color extra-margin-y c-black">
-        <div className="d-flex">
-          <div className="f-size-title title-center f-parisinne">
-            <span className="f-orientation-vdt">Sugerencias</span>
+        <div className="d-flex align-center">
+          <div className="suggestion-title">
+            <div className="f-size-title  f-parisinne f-orientation-vdt">
+              Sugerencias
+            </div>
+
           </div>
           <div className="content-suggestion">
             <span className="f-size-text-small f-montserrat">
